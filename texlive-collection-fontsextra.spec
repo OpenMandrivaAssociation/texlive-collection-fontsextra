@@ -1,4 +1,4 @@
-# revision 25890
+# revision 27110
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20120413
+Version:	20120810
 Release:	1
 Summary:	Extra fonts
 Group:		Publishing
@@ -41,6 +41,7 @@ Requires:	texlive-bbold-type1
 Requires:	texlive-belleek
 Requires:	texlive-bera
 Requires:	texlive-berenisadf
+Requires:	texlive-bguq
 Requires:	texlive-blacklettert1
 Requires:	texlive-boisik
 Requires:	texlive-bookhands
@@ -63,6 +64,7 @@ Requires:	texlive-cmtiup
 Requires:	texlive-comfortaa
 Requires:	texlive-concmath-fonts
 Requires:	texlive-cookingsymbols
+Requires:	texlive-countriesofeurope
 Requires:	texlive-courier-scaled
 Requires:	texlive-cryst
 Requires:	texlive-cyklop
@@ -139,6 +141,7 @@ Requires:	texlive-mathdesign
 Requires:	texlive-mdputu
 Requires:	texlive-mdsymbol
 Requires:	texlive-mnsymbol
+Requires:	texlive-newtx
 Requires:	texlive-nkarta
 Requires:	texlive-ocherokee
 Requires:	texlive-ocr-b
@@ -163,6 +166,7 @@ Requires:	texlive-punknova
 Requires:	texlive-recycle
 Requires:	texlive-romande
 Requires:	texlive-rsfso
+Requires:	texlive-sansmathaccent
 Requires:	texlive-sauter
 Requires:	texlive-sauterfonts
 Requires:	texlive-semaphor
