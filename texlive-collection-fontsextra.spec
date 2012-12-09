@@ -1,4 +1,4 @@
-# revision 27812
+# revision 27110
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20121030
+Version:	20120810
 Release:	1
 Summary:	Extra fonts
 Group:		Publishing
@@ -42,7 +42,6 @@ Requires:	texlive-belleek
 Requires:	texlive-bera
 Requires:	texlive-berenisadf
 Requires:	texlive-bguq
-Requires:	texlive-biolinum-type1
 Requires:	texlive-blacklettert1
 Requires:	texlive-boisik
 Requires:	texlive-bookhands
@@ -114,7 +113,6 @@ Requires:	texlive-gnu-freefont
 Requires:	texlive-gothic
 Requires:	texlive-greenpoint
 Requires:	texlive-grotesq
-Requires:	texlive-hacm
 Requires:	texlive-hands
 Requires:	texlive-hfbright
 Requires:	texlive-hfoldsty
@@ -131,9 +129,8 @@ Requires:	texlive-kpfonts
 Requires:	texlive-kurier
 Requires:	texlive-lato
 Requires:	texlive-lfb
-Requires:	texlive-libertine
-Requires:	texlive-libertine-type1
 Requires:	texlive-libertineotf
+Requires:	texlive-libertine-legacy
 Requires:	texlive-libris
 Requires:	texlive-linearA
 Requires:	texlive-lxfonts
@@ -163,10 +160,9 @@ Requires:	texlive-pigpen
 Requires:	texlive-poltawski
 Requires:	texlive-prodint
 Requires:	texlive-psafm
-Requires:	texlive-punk
-Requires:	texlive-punk-latex
-Requires:	texlive-punknova
 Requires:	texlive-pxtxalfa
+Requires:	texlive-punk
+Requires:	texlive-punknova
 Requires:	texlive-recycle
 Requires:	texlive-romande
 Requires:	texlive-rsfso
@@ -175,10 +171,9 @@ Requires:	texlive-sauter
 Requires:	texlive-sauterfonts
 Requires:	texlive-semaphor
 Requires:	texlive-skull
-Requires:	texlive-starfont
 Requires:	texlive-staves
+Requires:	texlive-starfont
 Requires:	texlive-stix
-Requires:	texlive-superiors
 Requires:	texlive-tapir
 Requires:	texlive-tengwarscript
 Requires:	texlive-tfrupee
@@ -208,3 +203,20 @@ TeXLive collection-fontsextra package.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813903
+- Update to latest release.
+
+* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
++ Revision: 790846
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780280
+- Update to latest release.
+- Import texlive-collection-fontsextra
+- Import texlive-collection-fontsextra
+
