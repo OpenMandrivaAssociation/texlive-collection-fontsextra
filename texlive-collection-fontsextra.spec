@@ -1,4 +1,4 @@
-# revision 27110
+# revision 31471
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
-Summary:	Extra fonts
+Summary:	Additional fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,15 +16,17 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-fontse
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-Asana-Math
 Requires:	texlive-adforn
 Requires:	texlive-adfsymbols
+Requires:	texlive-aecc
 Requires:	texlive-allrunes
 Requires:	texlive-antiqua
 Requires:	texlive-antt
 Requires:	texlive-archaic
 Requires:	texlive-arev
-Requires:	texlive-ascii
+Requires:	texlive-ascii-font
 Requires:	texlive-aspectratio
 Requires:	texlive-astro
 Requires:	texlive-augie
@@ -48,6 +50,7 @@ Requires:	texlive-bookhands
 Requires:	texlive-boondox
 Requires:	texlive-braille
 Requires:	texlive-brushscr
+Requires:	texlive-cabin
 Requires:	texlive-calligra
 Requires:	texlive-calligra-type1
 Requires:	texlive-cantarell
@@ -80,6 +83,7 @@ Requires:	texlive-duerer
 Requires:	texlive-duerer-latex
 Requires:	texlive-dutchcal
 Requires:	texlive-ean
+Requires:	texlive-ebgaramond
 Requires:	texlive-ecc
 Requires:	texlive-eco
 Requires:	texlive-eiad
@@ -92,16 +96,18 @@ Requires:	texlive-esstix
 Requires:	texlive-esvect
 Requires:	texlive-eulervm
 Requires:	texlive-euxm
+Requires:	texlive-fbb
 Requires:	texlive-fdsymbol
 Requires:	texlive-feyn
 Requires:	texlive-fge
 Requires:	texlive-foekfont
 Requires:	texlive-fonetika
+Requires:	texlive-fontawesome
 Requires:	texlive-fourier
 Requires:	texlive-fouriernc
 Requires:	texlive-frcursive
 Requires:	texlive-genealogy
-Requires:	texlive-gentium
+Requires:	texlive-gentium-tug
 Requires:	texlive-gfsartemisia
 Requires:	texlive-gfsbodoni
 Requires:	texlive-gfscomplutum
@@ -113,12 +119,15 @@ Requires:	texlive-gnu-freefont
 Requires:	texlive-gothic
 Requires:	texlive-greenpoint
 Requires:	texlive-grotesq
+Requires:	texlive-hacm
 Requires:	texlive-hands
 Requires:	texlive-hfbright
 Requires:	texlive-hfoldsty
 Requires:	texlive-ifsym
 Requires:	texlive-inconsolata
 Requires:	texlive-initials
+Requires:	texlive-ipaex-type1
+
 Requires:	texlive-iwona
 Requires:	texlive-jablantile
 Requires:	texlive-jamtimes
@@ -129,8 +138,9 @@ Requires:	texlive-kpfonts
 Requires:	texlive-kurier
 Requires:	texlive-lato
 Requires:	texlive-lfb
-Requires:	texlive-libertineotf
-Requires:	texlive-libertine-legacy
+Requires:	texlive-libertine
+Requires:	texlive-librebaskerville
+Requires:	texlive-librecaslon
 Requires:	texlive-libris
 Requires:	texlive-linearA
 Requires:	texlive-lxfonts
@@ -141,6 +151,7 @@ Requires:	texlive-mathdesign
 Requires:	texlive-mdputu
 Requires:	texlive-mdsymbol
 Requires:	texlive-mnsymbol
+Requires:	texlive-newpx
 Requires:	texlive-newtx
 Requires:	texlive-nkarta
 Requires:	texlive-ocherokee
@@ -159,21 +170,28 @@ Requires:	texlive-phonetic
 Requires:	texlive-pigpen
 Requires:	texlive-poltawski
 Requires:	texlive-prodint
-Requires:	texlive-psafm
-Requires:	texlive-pxtxalfa
 Requires:	texlive-punk
+Requires:	texlive-punk-latex
 Requires:	texlive-punknova
+Requires:	texlive-pxtxalfa
+Requires:	texlive-quattrocento
+Requires:	texlive-raleway
 Requires:	texlive-recycle
 Requires:	texlive-romande
 Requires:	texlive-rsfso
 Requires:	texlive-sansmathaccent
+Requires:	texlive-sansmathfonts
 Requires:	texlive-sauter
 Requires:	texlive-sauterfonts
+Requires:	texlive-schulschriften
 Requires:	texlive-semaphor
 Requires:	texlive-skull
-Requires:	texlive-staves
+Requires:	texlive-sourcecodepro
+Requires:	texlive-sourcesanspro
 Requires:	texlive-starfont
+Requires:	texlive-staves
 Requires:	texlive-stix
+Requires:	texlive-superiors
 Requires:	texlive-tapir
 Requires:	texlive-tengwarscript
 Requires:	texlive-tfrupee
@@ -187,7 +205,6 @@ Requires:	texlive-venturisadf
 Requires:	texlive-wsuipa
 Requires:	texlive-xits
 Requires:	texlive-yfonts
-Requires:	texlive-collection-basic
 %rename texlive-fontsextra
 
 %description
@@ -203,20 +220,3 @@ TeXLive collection-fontsextra package.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813903
-- Update to latest release.
-
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790846
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780280
-- Update to latest release.
-- Import texlive-collection-fontsextra
-- Import texlive-collection-fontsextra
-
