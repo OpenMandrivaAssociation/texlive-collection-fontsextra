@@ -1,4 +1,4 @@
-# revision 31471
+# revision 32129
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	Additional fonts
 Group:		Publishing
@@ -18,9 +18,11 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
 Requires:	texlive-Asana-Math
+Requires:	texlive-accanthis
 Requires:	texlive-adforn
 Requires:	texlive-adfsymbols
 Requires:	texlive-aecc
+Requires:	texlive-alegreya
 Requires:	texlive-allrunes
 Requires:	texlive-antiqua
 Requires:	texlive-antt
@@ -115,6 +117,7 @@ Requires:	texlive-gfsdidot
 Requires:	texlive-gfsneohellenic
 Requires:	texlive-gfssolomos
 Requires:	texlive-gillcm
+Requires:	texlive-gillius
 Requires:	texlive-gnu-freefont
 Requires:	texlive-gothic
 Requires:	texlive-greenpoint
@@ -127,7 +130,6 @@ Requires:	texlive-ifsym
 Requires:	texlive-inconsolata
 Requires:	texlive-initials
 Requires:	texlive-ipaex-type1
-
 Requires:	texlive-iwona
 Requires:	texlive-jablantile
 Requires:	texlive-jamtimes
@@ -150,6 +152,8 @@ Requires:	texlive-mathabx-type1
 Requires:	texlive-mathdesign
 Requires:	texlive-mdputu
 Requires:	texlive-mdsymbol
+Requires:	texlive-merriweather
+Requires:	texlive-mintspirit
 Requires:	texlive-mnsymbol
 Requires:	texlive-newpx
 Requires:	texlive-newtx
@@ -203,6 +207,7 @@ Requires:	texlive-universa
 Requires:	texlive-urwchancal
 Requires:	texlive-venturisadf
 Requires:	texlive-wsuipa
+Requires:	texlive-xcharter
 Requires:	texlive-xits
 Requires:	texlive-yfonts
 %rename texlive-fontsextra
