@@ -1,4 +1,4 @@
-# revision 32129
+# revision 32617
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Additional fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -24,6 +24,7 @@ Requires:	texlive-adfsymbols
 Requires:	texlive-aecc
 Requires:	texlive-alegreya
 Requires:	texlive-allrunes
+Requires:	texlive-anonymouspro
 Requires:	texlive-antiqua
 Requires:	texlive-antt
 Requires:	texlive-archaic
@@ -100,6 +101,7 @@ Requires:	texlive-eulervm
 Requires:	texlive-euxm
 Requires:	texlive-fbb
 Requires:	texlive-fdsymbol
+Requires:	texlive-fetamont
 Requires:	texlive-feyn
 Requires:	texlive-fge
 Requires:	texlive-foekfont
@@ -145,6 +147,7 @@ Requires:	texlive-librebaskerville
 Requires:	texlive-librecaslon
 Requires:	texlive-libris
 Requires:	texlive-linearA
+Requires:	texlive-lobster2
 Requires:	texlive-lxfonts
 Requires:	texlive-ly1
 Requires:	texlive-mathabx
