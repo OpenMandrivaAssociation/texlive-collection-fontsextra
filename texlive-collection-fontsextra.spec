@@ -1,4 +1,4 @@
-# revision 32617
+# revision 33186
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20140215
+Version:	20140318
 Release:	1
 Summary:	Additional fonts
 Group:		Publishing
@@ -175,6 +175,7 @@ Requires:	texlive-paratype
 Requires:	texlive-phaistos
 Requires:	texlive-phonetic
 Requires:	texlive-pigpen
+Requires:	texlive-playfair
 Requires:	texlive-poltawski
 Requires:	texlive-prodint
 Requires:	texlive-punk
@@ -213,6 +214,7 @@ Requires:	texlive-wsuipa
 Requires:	texlive-xcharter
 Requires:	texlive-xits
 Requires:	texlive-yfonts
+Requires:	texlive-zlmtt
 %rename texlive-fontsextra
 
 %description
