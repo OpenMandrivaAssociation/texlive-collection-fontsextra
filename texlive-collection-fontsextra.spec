@@ -1,4 +1,4 @@
-# revision 33186
+# revision 33961
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20140318
-Release:	2
+Version:	20140621
+Release:	1
 Summary:	Additional fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -38,6 +38,7 @@ Requires:	texlive-aurical
 Requires:	texlive-b1encoding
 Requires:	texlive-barcodes
 Requires:	texlive-baskervald
+Requires:	texlive-baskervaldx
 Requires:	texlive-bbding
 Requires:	texlive-bbm
 Requires:	texlive-bbm-macros
@@ -61,6 +62,8 @@ Requires:	texlive-carolmin-ps
 Requires:	texlive-ccicons
 Requires:	texlive-cfr-lm
 Requires:	texlive-cherokee
+Requires:	texlive-cinzel
+Requires:	texlive-clearsans
 Requires:	texlive-cm-lgc
 Requires:	texlive-cm-unicode
 Requires:	texlive-cmbright
@@ -104,6 +107,7 @@ Requires:	texlive-fdsymbol
 Requires:	texlive-fetamont
 Requires:	texlive-feyn
 Requires:	texlive-fge
+Requires:	texlive-fira
 Requires:	texlive-foekfont
 Requires:	texlive-fonetika
 Requires:	texlive-fontawesome
@@ -126,6 +130,7 @@ Requires:	texlive-greenpoint
 Requires:	texlive-grotesq
 Requires:	texlive-hacm
 Requires:	texlive-hands
+Requires:	texlive-heuristica
 Requires:	texlive-hfbright
 Requires:	texlive-hfoldsty
 Requires:	texlive-ifsym
@@ -160,7 +165,9 @@ Requires:	texlive-mintspirit
 Requires:	texlive-mnsymbol
 Requires:	texlive-newpx
 Requires:	texlive-newtx
+Requires:	texlive-newtxtt
 Requires:	texlive-nkarta
+Requires:	texlive-obnov
 Requires:	texlive-ocherokee
 Requires:	texlive-ocr-b
 Requires:	texlive-ocr-b-outline
@@ -208,6 +215,7 @@ Requires:	texlive-trajan
 Requires:	texlive-txfontsb
 Requires:	texlive-umtypewriter
 Requires:	texlive-universa
+Requires:	texlive-universalis
 Requires:	texlive-urwchancal
 Requires:	texlive-venturisadf
 Requires:	texlive-wsuipa
