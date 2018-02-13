@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20171124
+Version:	20180211
 Release:	1
 Summary:	Additional fonts
 Group:		Publishing
