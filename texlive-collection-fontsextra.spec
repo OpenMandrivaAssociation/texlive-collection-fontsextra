@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	20180510
-Release:	2
+Version:	20190203
+Release:	1
 Summary:	Additional fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
