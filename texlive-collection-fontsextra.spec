@@ -1,7 +1,7 @@
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	64952
-Release:	2
+Version:	67659
+Release:	1
 Summary:	Additional fonts
 Group:		Publishing
 URL:		http://tug.org/texlive
