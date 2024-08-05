@@ -1,6 +1,6 @@
 Name:		texlive-collection-fontsextra
 Epoch:		1
-Version:	71814
+Version:	71894
 Release:	1
 Summary:	Additional fonts
 Group:		Publishing
